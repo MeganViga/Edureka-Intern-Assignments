@@ -1,0 +1,19 @@
+{
+  "name": "resapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "resapi.js",
+  "scripts": {
+    "start": "node resapi.js",
+    "dev": "nodemon resapi.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9"
+  }
+}
