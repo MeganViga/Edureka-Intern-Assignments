@@ -1,7 +1,7 @@
 var express =  require('express');
+var mongodb = require("mongodb");
 var expobj  = express();
 var port = 7777;
-var mongodb = require("mongodb");
 var mongoclient = mongodb.MongoClient;
 var mongourl = "mongodb://localhost:27017";
 var db;
